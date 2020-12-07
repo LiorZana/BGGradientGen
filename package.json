@@ -1,0 +1,23 @@
+{
+  "name": "bggradientgen",
+  "version": "1.0.0",
+  "description": "A background gradient generator for css that I built for my ZTM Javascript class.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiorZana/BGGradientGen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiorZana/BGGradientGen/issues"
+  },
+  "homepage": "https://LiorZana.github.io/BGGradientGen",
+  "dependencies": {},
+  "devDependencies": {}
+}
