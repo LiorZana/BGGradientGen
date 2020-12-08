@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,28 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
+
 <body id="gradient">
     <h1>Background Generator</h1>
-    <h3>Test</h3>
-    <input class="color1" type="color" name="color 1" value="#ff0000">
-    <input class="color2" type="color" name="color 2" value="#ffff00">
-    <br>
-    <button id="randColor1">Randomize left color</button>
-    <button id="randBoth">Randomize both!</button>
-    <button id="randColor2">Randomize right color</button>
-    <h2>Current CSS Background</h2>
-    <h3></h3>
+    <div>
+        <div>
+            <input class="color1" type="color" name="color 1" value="#ff0000">
+            <input class="color2" type="color" name="color 2" value="#ffff00">
+        </div>
+        <br>
+        <div>
+            <button id="randColor1">Randomize left color</button>
+            <button id="randBoth">Randomize both!</button>
+            <button id="randColor2">Randomize right color</button>
+        </div>
+    </div>
+
+    <div id='current-value'>
+        <h2>Current CSS Background</h2>
+        <h3>Test</h3>
+    </div>
     <script type="text/javascript" src="script.js"></script>
-    
+
 </body>
+
 </html>

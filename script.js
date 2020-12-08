@@ -1,10 +1,10 @@
-var css = document.querySelector("h3");
-var color1 = document.querySelector(".color1");
-var color2 = document.querySelector(".color2");
-var body = document.getElementById("gradient");
-var randButton1 = document.getElementById("randColor1");
-var randButton2 = document.getElementById("randColor2");
-var randBoth = document.getElementById("randBoth");
+const css = document.querySelector("h3");
+const color1 = document.querySelector(".color1");
+const color2 = document.querySelector(".color2");
+const body = document.getElementById("gradient");
+const randButton1 = document.getElementById("randColor1");
+const randButton2 = document.getElementById("randColor2");
+const randBoth = document.getElementById("randBoth");
 
 function setGradient() {
     body.style.background = 
@@ -22,9 +22,9 @@ color2.addEventListener("input", setGradient);
 //Random color buttons:
 function getRandomColor() 
 {
-    var color = "";
-    for(var i = 0; i < 3; i++) {
-        var sub = Math.floor(Math.random() * 256).toString(16);
+    let color = "";
+    for(let i = 0; i < 3; i++) {
+        const sub = Math.floor(Math.random() * 256).toString(16);
         color += (sub.length == 1 ? "0" + sub : sub);
     }
     return "#" + color;
